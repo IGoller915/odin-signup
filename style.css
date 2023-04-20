@@ -1,0 +1,33 @@
+/* *{
+    border: solid green 1px;
+} */
+
+body{
+    display: flex;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: auto;
+}
+
+.left{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    flex: auto;
+    max-width: 35%;
+}
+
+.credit{
+    position: absolute;
+    bottom: 1em;
+    background-color: rgba(0,0,0,.4);
+    color: gray;
+}
+
+.right{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
